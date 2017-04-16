@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/splash"
+        android:src="@drawable/unnamed"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm App"
+        android:textSize="44dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:gravity="right"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="-PanktiSugandhi"
+        android:layout_marginBottom="31dp"
+        android:textSize="44dp"
+        android:fontFamily="cursive"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:gravity="right"
+        android:textSize="31dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_no"
+        android:fontFamily="cursive"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="En-146140316109"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+</RelativeLayout>

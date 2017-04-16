@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ReminderApp</string>
+    <string name="app_name">Alarm</string>
     <string name="title_activity_set_alarms">Set Alarm</string>
     <string name="no_alarms">No alarms have been set</string>
     <string name="button_new">New</string>
